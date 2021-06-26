@@ -1,0 +1,2270 @@
+{
+  "intents": [
+    {
+      "intent": "conocerRiesgo",
+      "examples": [
+        {
+          "text": "0"
+        },
+        {
+          "text": "Clarin"
+        },
+        {
+          "text": "Efectivamente"
+        },
+        {
+          "text": "Me gustaria saber cual es mi riesgo"
+        },
+        {
+          "text": "plis"
+        },
+        {
+          "text": "porfa"
+        },
+        {
+          "text": "por favor"
+        },
+        {
+          "text": "por favr"
+        },
+        {
+          "text": "Que riesgo cardiovascular tengo?"
+        },
+        {
+          "text": "Quiero conocer mi riesgo cardiovascular"
+        },
+        {
+          "text": "Quiero saber mi riesgo"
+        },
+        {
+          "text": "Si"
+        },
+        {
+          "text": "Simon"
+        },
+        {
+          "text": "Sip"
+        },
+        {
+          "text": "sis"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "¿Con qué tipo de robot estoy interactuando?"
+        },
+        {
+          "text": "¿Cuál es su versión?"
+        },
+        {
+          "text": "Cuántos idiomas hablas?"
+        },
+        {
+          "text": "De qué país eres?"
+        },
+        {
+          "text": "Dime tu nombre completo."
+        },
+        {
+          "text": "Dónde estás ahora mismo?"
+        },
+        {
+          "text": "¿Eres un representante oficial de conversación?"
+        },
+        {
+          "text": "Estoy buscando una solución para mejorar mi compromiso con los clientes"
+        },
+        {
+          "text": "¿Hablas alemán?"
+        },
+        {
+          "text": "Me gustaría configurar el bot de conversación para mi negocio."
+        },
+        {
+          "text": "Me puedes decir como se llama la aplicación?"
+        },
+        {
+          "text": "¿Puede darme información general sobre usted?"
+        },
+        {
+          "text": "¿Puede explicarme la diferencia entre este sistema y cualquier otro?"
+        },
+        {
+          "text": "Puedo hacerle algunas preguntas de validación de las ventas"
+        },
+        {
+          "text": "¿Puedo hacer mis preguntas usando Siri en lugar de esta aplicación?"
+        },
+        {
+          "text": "Qué color tienen tus ojos?"
+        },
+        {
+          "text": "Qué te gusta hacer en tu tiempo libre?"
+        },
+        {
+          "text": "Quiero crear un agente virtual que hable portugués"
+        },
+        {
+          "text": "Quiero entender cómo funcionas"
+        },
+        {
+          "text": "Tienes algún interés?"
+        }
+      ],
+      "description": "Solicitar atributos personales genéricos."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "¿Cómo funciona el filtro en la pantalla de capacidades?"
+        },
+        {
+          "text": "¿Con qué categorías de problemas están capaz de ayudarme?"
+        },
+        {
+          "text": "¿Con qué categorías de problemas me puedes ayudar?"
+        },
+        {
+          "text": "¿Cuáles son las opciones disponibles si estoy usando agente virtual?"
+        },
+        {
+          "text": "¿Podría darme una lista de temas con las que puede ayudarme?"
+        },
+        {
+          "text": "¿Podría esperar un momento por favor?"
+        },
+        {
+          "text": "¿Podría esperar un segundo por favor?"
+        },
+        {
+          "text": "¿Puedes ayudarme en cómo iniciar sesión en Virtual Agent?"
+        },
+        {
+          "text": "¿Puedes darme una lista de temas de cosas con las que puedes ayudarme?"
+        },
+        {
+          "text": "¿Puedes esperar un poquito?"
+        },
+        {
+          "text": "¿Puedo tener una lista de temas disponibles, con los que puedes ayudarme?"
+        },
+        {
+          "text": "¿Qué clase de cosas haces?"
+        },
+        {
+          "text": "¿Qué hace un agente digital? ¿Para qué te uso?"
+        },
+        {
+          "text": "¿Qué pasa si quiero cambiar la respuesta de texto para una intención?"
+        },
+        {
+          "text": "¿Qué tipo de cosas puede hacer por mí?"
+        },
+        {
+          "text": "¿Qué tipo de información y problemas puedes resolver para mí?"
+        },
+        {
+          "text": "¿Qué tipo de preguntas puedes contestar? ¿Y cuáles son tus limitaciones de respuestas?"
+        },
+        {
+          "text": "Tengo algunas preguntas y necesito ayuda, ¿puedo recibir ayuda?"
+        },
+        {
+          "text": "Tengo algunos problemas y quiero algo de información sobre cómo conseguir ayuda."
+        },
+        {
+          "text": "Tengo varios problemas y necesito saber con qué me puede ayudar."
+        }
+      ],
+      "description": "Solicitar capacidades del bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Ayudame a ponerme en contacto con una persona."
+        },
+        {
+          "text": "Buenos días podría hablar por teléfono contigo?"
+        },
+        {
+          "text": "Cómo puedo contactar un ser vivo?"
+        },
+        {
+          "text": "Creo que es mejor hablar con una persona."
+        },
+        {
+          "text": "Dejame hablar con un agente."
+        },
+        {
+          "text": "Deseo hablar con un agente."
+        },
+        {
+          "text": "Esto es muy frustrante, quiero hablar con una persona viva y real."
+        },
+        {
+          "text": "Hay algún ser vivo con cuál podría hablar?"
+        },
+        {
+          "text": "¿Hay un número de servicio al cliente que pueda usar para contactar a la compañía telefónica y hablar directamente con un agente?"
+        },
+        {
+          "text": "Hola! Estaba hablando con un agente y se me ha quedado colgado el chat y he perdido la conexión."
+        },
+        {
+          "text": "Hola, me conectas con el soporte tecnico?"
+        },
+        {
+          "text": "Hola, ¿podría transferirme al agente vivo, por favor?"
+        },
+        {
+          "text": "Hola, ¿puedes transferir mi llamada a un agente humano? Deseo hablar directamente con un ser humano."
+        },
+        {
+          "text": "Llama a un representante."
+        },
+        {
+          "text": "Mi factura está incorrecta, quiero hablar con un representante."
+        },
+        {
+          "text": "Nada contra maquinas, pero ponme con un operador."
+        },
+        {
+          "text": "Necesito hablar con alquien vivo."
+        },
+        {
+          "text": "Necesito hablar con una persona real, en lugar de un sistema automatizado de respuestas, por favor."
+        },
+        {
+          "text": "Necesito hablar directamente con un agente."
+        },
+        {
+          "text": "No quiero hablar con el agente virtual."
+        },
+        {
+          "text": "Pasame con un agente experto!"
+        },
+        {
+          "text": "Perfecto. Ahora, me gustaría hablar con un agente sobre algunos cargos."
+        },
+        {
+          "text": "Podrías ponerme en contacto con un operador?"
+        },
+        {
+          "text": "Por favor ayudame a contactar a un agente."
+        },
+        {
+          "text": "¿Puede enviarme un número telefónico para que hable con un representante humano de ventas?"
+        },
+        {
+          "text": "¿Puedes ayudarme a conectar con un agente?"
+        },
+        {
+          "text": "Puedes transferirme a un agente real?"
+        },
+        {
+          "text": "Puedo hablar con una persona?"
+        },
+        {
+          "text": "Puedo hablar con una persona real?"
+        },
+        {
+          "text": "¿Puedo tener información de contacto para hablar con un agente real?"
+        },
+        {
+          "text": "Quiero hablar con una persona."
+        },
+        {
+          "text": "Quiero que me pongan en contacto con un número diferente para las cosas relacionadas con esta cuenta."
+        },
+        {
+          "text": "Sería posible hablar con una persona?"
+        },
+        {
+          "text": "Transferirme a un agente por favor."
+        }
+      ],
+      "description": "Solicitar un agente humano"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Buenas tardes."
+        },
+        {
+          "text": "Cuídate!"
+        },
+        {
+          "text": "Eso ha sido todo lo que me hacía falta."
+        },
+        {
+          "text": "Fue agradable hablar contigo."
+        },
+        {
+          "text": "Gracias no necesito más ayuda."
+        },
+        {
+          "text": "Gracias, podemos cerrar esta conversación."
+        },
+        {
+          "text": "Gracias por tu ayuda, hasta luego."
+        },
+        {
+          "text": "Hablamos luego."
+        },
+        {
+          "text": "Hablaremos más tarde."
+        },
+        {
+          "text": "¡Muchas gracias, adiós!"
+        },
+        {
+          "text": "Nos vemos."
+        },
+        {
+          "text": "No tengo más dudas, gracias por tu ayuda."
+        },
+        {
+          "text": "OK, eso es todo lo que necesito saber."
+        },
+        {
+          "text": "Qué te lo pases bien."
+        },
+        {
+          "text": "Qué tengas una buena tarde."
+        },
+        {
+          "text": "¡Salud!"
+        },
+        {
+          "text": "Un saludo."
+        },
+        {
+          "text": "Usted es maravilloso. Gracias por su ayuda."
+        },
+        {
+          "text": "Vaya usted con Diós!"
+        },
+        {
+          "text": "Ya me voy."
+        }
+      ],
+      "description": "Fin de la conversacion."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Buenas noches."
+        },
+        {
+          "text": "Buenos días, podemos empezar la conversación?"
+        },
+        {
+          "text": "¿Cómo está? / Oye, ¿Qué tal?"
+        },
+        {
+          "text": "¿Estás ahí?"
+        },
+        {
+          "text": "¡Estoy feliz de poder hablar contigo por primera vez!"
+        },
+        {
+          "text": "Hey, ¿cómo te va?"
+        },
+        {
+          "text": "Hola, amigo mío."
+        },
+        {
+          "text": "Hola, ¿Cómo estás?"
+        },
+        {
+          "text": "Hola, Cómo estás el día de hoy?"
+        },
+        {
+          "text": "Hola, ¿Cómo te sientes?"
+        },
+        {
+          "text": "Hola, Cómo va todo?"
+        },
+        {
+          "text": "Hola, podrías responder mi pregunta?"
+        },
+        {
+          "text": "Hola ¿puedes ayudarme?"
+        },
+        {
+          "text": "Hola, quien me puede atender?"
+        },
+        {
+          "text": "Hola, Señor."
+        },
+        {
+          "text": "Quién eres?"
+        },
+        {
+          "text": "Sigues aquí?"
+        },
+        {
+          "text": "Tienes un momento, por favor?"
+        }
+      ],
+      "description": "Saluda al bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Eres un agente virtual?"
+        },
+        {
+          "text": "Eres una máquina o una persona real?"
+        },
+        {
+          "text": "Eres un operador virtual o vivo?"
+        },
+        {
+          "text": "Hablo con una máquina?"
+        },
+        {
+          "text": "Hablo con una persona?"
+        },
+        {
+          "text": "Me confirmas si hablo con un agente virtual o con un agente real?"
+        },
+        {
+          "text": "Podría hablar con un agente virtual?"
+        },
+        {
+          "text": "PPuedes decirme, si eres vivo o virtual?"
+        },
+        {
+          "text": "Preferiría hablar con un agente virutal."
+        },
+        {
+          "text": "Quiero saber si eres real o no"
+        },
+        {
+          "text": "Tu eres un agente virtual o real?"
+        }
+      ],
+      "description": "Preguntar si habla con un humano o un bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Cuál es tu chiste favorito?"
+        },
+        {
+          "text": "Cuéntame un chiste."
+        },
+        {
+          "text": "Dime algo divertido."
+        },
+        {
+          "text": "Dime otro chiste!"
+        },
+        {
+          "text": "Dime un chiste."
+        },
+        {
+          "text": "Dime un chiste sarcástico."
+        },
+        {
+          "text": "Divierteme!"
+        },
+        {
+          "text": "Estoy aburrido."
+        },
+        {
+          "text": "Me aburro."
+        },
+        {
+          "text": "Me gustan los chistes, cuéntame uno."
+        },
+        {
+          "text": "Me gustaría que me diviertas."
+        },
+        {
+          "text": "Puedes entretenerme?"
+        },
+        {
+          "text": "Puedo jugar juegos aquí?"
+        },
+        {
+          "text": "Qué sueles hacer para divertirte?"
+        },
+        {
+          "text": "Quiero reírme un poco, cuéntame algo divertido."
+        },
+        {
+          "text": "Sabes contar chistes?"
+        },
+        {
+          "text": "Sorpréndeme con algo chistoso."
+        },
+        {
+          "text": "Te gusta hacer chistes?"
+        },
+        {
+          "text": "Te gustan los chistes?"
+        },
+        {
+          "text": "Te ha pasado algo chistoso hoy?"
+        }
+      ],
+      "description": "Solicito una broma"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Cómo te atreves a tratarme de este modo?"
+        },
+        {
+          "text": "El agente era maldispuesto."
+        },
+        {
+          "text": "El comportamiento del agente era inapropiado."
+        },
+        {
+          "text": "Eres un inútil."
+        },
+        {
+          "text": "Espero no necesitar tu ayada más."
+        },
+        {
+          "text": "Este servicio no sirve para nada."
+        },
+        {
+          "text": "Estoy muy decepcionado."
+        },
+        {
+          "text": "Increíble, mi problema sigue sin resolverse un mes."
+        },
+        {
+          "text": "La peor experiencia que he tenido en mi vida con un agente."
+        },
+        {
+          "text": "Lo que me estás diciendo es muy frustrante."
+        },
+        {
+          "text": "Me has proporcionado la información errónea."
+        },
+        {
+          "text": "No estoy de acuerdo."
+        },
+        {
+          "text": "No me has dicho la verdad."
+        },
+        {
+          "text": "No me lo creo."
+        },
+        {
+          "text": "No me trates así."
+        },
+        {
+          "text": "No puede ser!"
+        },
+        {
+          "text": "No te mereces este trabajo."
+        },
+        {
+          "text": "Nunca me has ayudado."
+        },
+        {
+          "text": "Tu comportamiento es inexcusable."
+        },
+        {
+          "text": "Voy a quejarme."
+        }
+      ],
+      "description": "Expresar comentarios desfavorables."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "El agente era muy amable y resolvió mi problema inmediatamente."
+        },
+        {
+          "text": "El mejor soporte."
+        },
+        {
+          "text": "Eres el mejor."
+        },
+        {
+          "text": "Eres muy profesional."
+        },
+        {
+          "text": "Espero que me atiendas también la próxima vez."
+        },
+        {
+          "text": "Estoy muy contento con su servicio."
+        },
+        {
+          "text": "Es un placer trabajar contingo."
+        },
+        {
+          "text": "Excelente!"
+        },
+        {
+          "text": "Gracias."
+        },
+        {
+          "text": "Gracias por todo!"
+        },
+        {
+          "text": "Me alegraste el día."
+        },
+        {
+          "text": "Me gustaría llenar la encuesta de satisfacción."
+        },
+        {
+          "text": "Me salvaste!"
+        },
+        {
+          "text": "Muchísimas gracias por tu ayuda!"
+        },
+        {
+          "text": "Muy amable!"
+        },
+        {
+          "text": "Muy bien!"
+        },
+        {
+          "text": "Perfecto!"
+        },
+        {
+          "text": "Siempre puedo contar con su ayuda."
+        },
+        {
+          "text": "Siempre resuelves mis problemas, gracias."
+        }
+      ],
+      "description": "Expresar un sentimiento positivo o gratitud."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "¿Cómo puede asegurar que nuestra conversación por chat es confidencial?"
+        },
+        {
+          "text": "¿Cómo puedo garantizar la protección de la información de los consumidores?"
+        },
+        {
+          "text": "¿Cómo reconzco si su página web es confiable?"
+        },
+        {
+          "text": "¿Cómo saber que puedo confiar en la información obtenida en esta chat sesión?"
+        },
+        {
+          "text": "Cómo sé que este chat no es una estafa?"
+        },
+        {
+          "text": "¿Dónde puedo encontrar su certificado de seguridad?"
+        },
+        {
+          "text": "Es esto un chat oficial?"
+        },
+        {
+          "text": "¿Hay alguna razón para desconfiar de este chat?"
+        },
+        {
+          "text": "Hay algunas precauciones contra los hackers?"
+        },
+        {
+          "text": "Hola El usuario desea garantías de que cualquier información que proporciona en la conversación está protegida y segura."
+        },
+        {
+          "text": "¿Mi informacion personal de pago es manejada seguramente?"
+        },
+        {
+          "text": "¿Puede confirmarme si esa red es segura?"
+        },
+        {
+          "text": "Puede demostrarme que esta conversación es segura?"
+        },
+        {
+          "text": "¿Pueden asegurarme que toda la información de mi cuenta está protegida?"
+        },
+        {
+          "text": "¿Puedo confiar en todo lo que leo en este chat?"
+        },
+        {
+          "text": "¿Puedo estar seguro que mi información de tarjeta guardada está cifrada y asegurada?"
+        },
+        {
+          "text": "¿Qué medidas de seguridad están usadas para asegurar que este chat es seguro?"
+        },
+        {
+          "text": "Qué sistemas de protección usan contra los hackers?"
+        },
+        {
+          "text": "Qué tipos de medidas se han tomado para proteger esta conversación?"
+        },
+        {
+          "text": "Quisiera asegurarme que mis detalles de tarjeta están seguros, ¿puedes hacerlo?"
+        }
+      ],
+      "description": "Expresar preocupaciones sobre la seguridad del bot."
+    },
+    {
+      "intent": "noSe",
+      "examples": [
+        {
+          "text": "No comprendo lo que me dices"
+        },
+        {
+          "text": "No entiendo que me estas diciendo"
+        },
+        {
+          "text": "no se"
+        },
+        {
+          "text": "No se de que hablas"
+        },
+        {
+          "text": "No se que es presión diastolica"
+        },
+        {
+          "text": "No se que es presion sistolica"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "http://mlmodelapi-accountable-lion-fu.mybluemix.net/predict",
+      "name": "main_webhook",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ]
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola. Soy Healthbot. Puedo ayudarte a conocer tu riesgo de presentar una enfermedad cardiovascular ¿Te gustaría que te apoye con esto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No le he entendido. Intente reformular la consulta."
+              },
+              {
+                "text": "¿Puede expresarse con otras palabras? No le he entendido."
+              },
+              {
+                "text": "No entendí el significado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_4_1623364120441",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1623365915822",
+      "context": {
+        "gluc": "@sys-number",
+        "features": [
+          "$edad",
+          "$sexo",
+          "$presionsis",
+          "$presiondias",
+          "$col",
+          "$gluc",
+          "$fumar",
+          "$tomar",
+          "$actividad_fisica",
+          "$estatura",
+          "$peso"
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1623365954810"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_10_1624074480242"
+    },
+    {
+      "type": "standard",
+      "title": "Colesterol",
+      "output": {
+        "generic": [
+          {
+            "title": "¿Cómo esta tu colesterol?",
+            "options": [
+              {
+                "label": "Normal",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "Arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "Muy arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1624668247154",
+      "context": {
+        "presiondias": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_10_1624668247161"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1624708861334",
+      "context": {
+        "gluc": "@sys-number",
+        "features": [
+          "$edad",
+          "$sexo",
+          "$presionsis",
+          "$presiondias",
+          "$col",
+          "$gluc",
+          "$fumar",
+          "$tomar",
+          "$actividad_fisica",
+          "$estatura",
+          "$peso"
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11_1624708861334"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_10_1624708861334"
+    },
+    {
+      "type": "standard",
+      "title": "Glucosa",
+      "output": {
+        "generic": [
+          {
+            "title": "¿Cómo esta tu glucosa?",
+            "options": [
+              {
+                "label": "Normal",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "Arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "Muy arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1624668247161",
+      "context": {
+        "col": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_11_1624668247161"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {},
+      "parent": "node_10_1624708861334",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "features": "$features"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_11_1624708861334"
+    },
+    {
+      "type": "standard",
+      "title": "Actividad Física",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Realizas actividad física con frecuencia?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Sí",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "0"
+                  }
+                }
+              },
+              {
+                "label": "No sé",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1623364756282",
+      "context": {
+        "edad": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_1_1623365095299"
+    },
+    {
+      "type": "standard",
+      "title": "Alcohol",
+      "output": {
+        "generic": [
+          {
+            "title": "¿Consumes alcohol?",
+            "options": [
+              {
+                "label": "Si",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "0"
+                  }
+                }
+              },
+              {
+                "label": "No se",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1623365258476",
+      "context": {
+        "fumar": "@sys-number"
+      },
+      "conditions": "\"TRUE\"",
+      "dialog_node": "node_1_1623365341059"
+    },
+    {
+      "type": "standard",
+      "title": "Peso",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Cuánto pesas? (Unidades en Kilogramos)"
+              },
+              {
+                "text": "¿Cuál es tu peso en kilogramos?"
+              },
+              {
+                "text": "¿Me podrías decir cuál es tu peso en kilogramos?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1623365341059",
+      "context": {
+        "tomar": "@sys-number"
+      },
+      "conditions": "\"TRUE\"",
+      "dialog_node": "node_1_1623365520839"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1624668247161",
+      "context": {
+        "gluc": "@sys-number",
+        "features": [
+          "$edad",
+          "$sexo",
+          "$presionsis",
+          "$presiondias",
+          "$col",
+          "$gluc",
+          "$fumar",
+          "$tomar",
+          "$actividad_fisica",
+          "$estatura",
+          "$peso"
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_13_1624668247161"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_12_1624668247161"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {},
+      "parent": "node_12_1624668247161",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "features": "$features"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_13_1624668247161"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La presión diastólica es la cantidad de presión en las arterias entre latidos, que es el número inferior\n\nNormal: Máximo 80\nElevada: 80-89\nHipertensión: 90-120\nHipertensión 2: 120y más\n\nPor favor escribe el número correspondiente"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1624708861332",
+      "conditions": "#noSe",
+      "dialog_node": "node_14_1624708861334",
+      "previous_sibling": "node_8_1624708861334"
+    },
+    {
+      "type": "standard",
+      "title": "Presión Diastólica - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Me podrías proporcionar tu presión diastólica? (en mmhg) "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1624708861334",
+      "context": {
+        "presionsis": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_15_1624708861334"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La presión diastólica es la cantidad de presión en las arterias entre latidos, que es el número inferior\n\nNormal: Máximo 80\nElevada: 80-89\nHipertensión: 90-120\nHipertensión 2: 120y más\n\nPor favor escribe el número correspondiente"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1624668247154",
+      "conditions": "#noSe",
+      "dialog_node": "node_16_1624668247161",
+      "previous_sibling": "node_10_1624668247161"
+    },
+    {
+      "type": "standard",
+      "title": "Colesterol",
+      "output": {
+        "generic": [
+          {
+            "title": "¿Cómo esta tu colesterol?",
+            "options": [
+              {
+                "label": "Normal",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "Arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "Muy arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_15_1624708861334",
+      "context": {
+        "presiondias": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_16_1624708861334"
+    },
+    {
+      "type": "standard",
+      "title": "Glucosa",
+      "output": {
+        "generic": [
+          {
+            "title": "¿Cómo esta tu glucosa?",
+            "options": [
+              {
+                "label": "Normal",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "Arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "Muy arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_16_1624708861334",
+      "context": {
+        "col": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_17_1624708861334"
+    },
+    {
+      "type": "standard",
+      "title": "Colesterol",
+      "output": {
+        "generic": [
+          {
+            "title": "¿Cómo esta tu colesterol?",
+            "options": [
+              {
+                "label": "Normal",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "Arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "Muy arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1624668049032",
+      "context": {
+        "presiondias": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_18_1624668400646"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_17_1624708861334",
+      "context": {
+        "gluc": "@sys-number",
+        "features": [
+          "$edad",
+          "$sexo",
+          "$presionsis",
+          "$presiondias",
+          "$col",
+          "$gluc",
+          "$fumar",
+          "$tomar",
+          "$actividad_fisica",
+          "$estatura",
+          "$peso"
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_19_1624708861334"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_18_1624708861334"
+    },
+    {
+      "type": "standard",
+      "title": "Glucosa",
+      "output": {
+        "generic": [
+          {
+            "title": "¿Cómo esta tu glucosa?",
+            "options": [
+              {
+                "label": "Normal",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "Arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "Muy arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_18_1624668400646",
+      "context": {
+        "col": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_19_1624668400646"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {},
+      "parent": "node_18_1624708861334",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "features": "$features"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_19_1624708861334"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1624668400646",
+      "context": {
+        "gluc": "@sys-number",
+        "features": [
+          "$edad",
+          "$sexo",
+          "$presionsis",
+          "$presiondias",
+          "$col",
+          "$gluc",
+          "$fumar",
+          "$tomar",
+          "$actividad_fisica",
+          "$estatura",
+          "$peso"
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_21_1624668400646"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_20_1624668400646"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1 - copy 1",
+      "output": {},
+      "parent": "node_20_1624668400646",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "features": "$features"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_21_1624668400646"
+    },
+    {
+      "type": "standard",
+      "title": "Sexo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mucho gusto, $nombre\n\n¿Me podrías decir cuál es tu sexo?"
+              },
+              {
+                "text": "¡Qué tal, $nombre!\n¿Podrías decirme cuál es tu sexo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Hombre",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "Mujer",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "Otro",
+                "value": {
+                  "input": {
+                    "text": "0"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1623364120441",
+      "context": {
+        "nombre": "<? input.text ?>"
+      },
+      "conditions": "\"TRUE\"",
+      "dialog_node": "node_2_1623364523686"
+    },
+    {
+      "type": "standard",
+      "title": "Altura",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Cuánto mides en centímetros?"
+              },
+              {
+                "text": "¿Me podrías proporcionar tu altura en centímetros?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1623365520839",
+      "context": {
+        "peso": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_2_1623365566568"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La presión diastólica es la cantidad de presión en las arterias entre latidos, que es el número inferior\n\nNormal: Máximo 80\nElevada: 80-89\nHipertensión: 90-120\nHipertensión 2: 120y más\n\nPor favor escribe el número correspondiente"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_15_1624708861334",
+      "conditions": "#noSe",
+      "dialog_node": "node_22_1624708861334",
+      "previous_sibling": "node_16_1624708861334"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La presión diastólica es la cantidad de presión en las arterias entre latidos, que es el número inferior\n\nNormal: Máximo 80\nElevada: 80-89\nHipertensión: 90-120\nHipertensión 2: 120y más\n\nPor favor escribe el número correspondiente"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1624668049032",
+      "conditions": "#noSe",
+      "dialog_node": "node_24_1624668400646",
+      "previous_sibling": "node_18_1624668400646"
+    },
+    {
+      "type": "standard",
+      "title": "Fumar",
+      "output": {
+        "generic": [
+          {
+            "title": "¿Fumas o vives con alguien que lo haga?",
+            "options": [
+              {
+                "label": "Si",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "0"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1623365095299",
+      "context": {
+        "actividad_fisica": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_3_1623365258476"
+    },
+    {
+      "type": "standard",
+      "title": "Presión Sistólica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Sabes como obtener la presion sistólica? ¿Me la podrías proporcionar por favor? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1623365566568",
+      "context": {
+        "estatura": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_3_1623365636438"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La presión diastólica es la cantidad de presión en las arterias entre latidos, que es el número inferior\n\nNormal: Máximo 80\nElevada: 80-89\nHipertensión: 90-120\nHipertensión 2: 120y más\n\nPor favor escribe el número correspondiente"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1623365799985",
+      "conditions": "#noSe",
+      "dialog_node": "node_3_1624667081584",
+      "previous_sibling": "node_5_1623365841899"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Excelente, iniciemos por conocernos, ¿cuál es tu nombre?"
+              },
+              {
+                "text": "¡Perfecto! ¿Podrías decirme cómo te llamas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#conocerRiesgo",
+      "dialog_node": "node_4_1623364120441",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "Presión Diastólica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Me podrías proporcionar tu presión diastólica?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1623365636438",
+      "context": {
+        "presionsis": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_4_1623365799985"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La presión sistólica la presión máxima que ejerce el corazón mientras late, es el número superior en la lectura de presión alterial.\n\nSi le es posible, haga la medición y proporciónela, en caso contrario, los parametros de referencia son los siguientes: \n\nNormal: Máximo 120\nElevada: 120-129\nHipertensión: 130-139\nHipertensión 2: 140 y más\n\nPor favor escribe el número correspondiente"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1623365636438",
+      "conditions": "#noSe",
+      "dialog_node": "node_4_1624666909717",
+      "previous_sibling": "node_4_1623365799985"
+    },
+    {
+      "type": "standard",
+      "title": "Colesterol",
+      "output": {
+        "generic": [
+          {
+            "title": "¿Usualmente cómo está tu colesterol?",
+            "options": [
+              {
+                "label": "Normal",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "Arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "Muy arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1623365799985",
+      "context": {
+        "presiondias": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_5_1623365841899"
+    },
+    {
+      "type": "standard",
+      "title": "Glucosa",
+      "output": {
+        "generic": [
+          {
+            "title": "¿Cómo esta tu glucosa?",
+            "options": [
+              {
+                "label": "Normal",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "Arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "Muy arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1623365841899",
+      "context": {
+        "col": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_6_1623365915822"
+    },
+    {
+      "type": "standard",
+      "title": "copy 1 - copy 1 - copy 1 - copy 1 - copy 1",
+      "parent": "node_10_1624074480242",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "features": "$features"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_7_1623365954810"
+    },
+    {
+      "type": "standard",
+      "title": "Presión Diastólica - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Me podrías proporcionar tu presión diastólica?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1624666909717",
+      "context": {
+        "presionsis": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_7_1624708861332",
+      "previous_sibling": "node_8_1624668049032"
+    },
+    {
+      "type": "standard",
+      "title": "Edad",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Cuántos años tienes?"
+              },
+              {
+                "text": "¿Podrías decirme tu edad?"
+              },
+              {
+                "text": "Por favor, escríbeme abajo tu edad"
+              },
+              {
+                "text": "Para continuar, ¿qué edad tienes?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1623364523686",
+      "context": {
+        "sexo": "<? input.text ?>"
+      },
+      "conditions": "\"TRUE\"",
+      "dialog_node": "node_8_1623364756282"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La presión diastólica es la cantidad de presión en las arterias entre latidos, que es el número inferior\n\nNormal: Máximo 80\nElevada: 80-89\nHipertensión: 90-120\nHipertensión 2: 120y más\n\nPor favor escribe el número correspondiente"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1624666909717",
+      "conditions": "#noSe",
+      "dialog_node": "node_8_1624668049032"
+    },
+    {
+      "type": "standard",
+      "title": "Colesterol",
+      "output": {
+        "generic": [
+          {
+            "title": "¿Usualmente cómo está tu colesterol?",
+            "options": [
+              {
+                "label": "Normal",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "Arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "Muy arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1624708861332",
+      "context": {
+        "presiondias": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_8_1624708861334"
+    },
+    {
+      "type": "standard",
+      "title": "Presión Diastólica - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Me podrías proporcionar tu presión diastólica? (en mmhg) "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1624667081584",
+      "context": {
+        "presionsis": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_9_1624668247154"
+    },
+    {
+      "type": "standard",
+      "title": "Glucosa",
+      "output": {
+        "generic": [
+          {
+            "title": "¿Cómo esta tu glucosa?",
+            "options": [
+              {
+                "label": "Normal",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "Arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "Muy arriba de lo normal",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1624708861334",
+      "context": {
+        "col": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_9_1624708861334"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Tu índice de riesgo es <? $webhook_result_1.prediction ?> Descarga el pdf y llevalo con tu profesional médico de confianza: C:\\Users\\iscarrad\\Downloads\\health-bot-summary_1"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1623365954810",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_1_1624069576401"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Tu índice de riesgo es <? $webhook_result_1.prediction ?> Te recomendamos acudir con un profesional con el siguiente pdf: C:\\Users\\iscarrad\\Downloads\\health-bot-summary_1"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11_1624708861334",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_12_1624708861334"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$features"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11_1624708861334",
+      "conditions": "anything_else",
+      "dialog_node": "response_13_1624708861334",
+      "previous_sibling": "response_12_1624708861334"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Tu índice de riesgo es <? $webhook_result_1.prediction ?> Te recomendamos acudir con un profesional con el siguiente pdf: C:\\Users\\iscarrad\\Downloads\\health-bot-summary_1"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1624668247161",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_14_1624668247161"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$features"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1624668247161",
+      "conditions": "anything_else",
+      "dialog_node": "response_15_1624668247161",
+      "previous_sibling": "response_14_1624668247161"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Tu índice de riesgo es <? $webhook_result_1.prediction ?> Te recomendamos acudir con un profesional con el siguiente pdf: C:\\Users\\iscarrad\\Downloads\\health-bot-summary_1"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_19_1624708861334",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_20_1624708861334"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$features"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_19_1624708861334",
+      "conditions": "anything_else",
+      "dialog_node": "response_21_1624708861334",
+      "previous_sibling": "response_20_1624708861334"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Tu índice de riesgo es <? $webhook_result_1.prediction ?> Te recomendamos acudir con un profesional con el siguiente pdf"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1624668400646",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_22_1624668400646"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$features"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1624668400646",
+      "conditions": "anything_else",
+      "dialog_node": "response_23_1624668400646",
+      "previous_sibling": "response_22_1624668400646"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$features"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1623365954810",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1624069576789",
+      "previous_sibling": "response_1_1624069576401"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Querías decir:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Ninguna de las anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Cardiosight_V1",
+  "language": "es",
+  "description": ""
+}
